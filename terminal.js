@@ -2,8 +2,10 @@ const random = require("random");
 
 let x = random.int(0, 100); // 72
 
-console.log(x);
+//console.log(x);
 
-module.exports = sayHellow (){
- console.log("Hello World .")
-}
+module.exports = {
+  sayHellow: () => {
+    console.log("Hello World From terminal.");
+  }
+};
